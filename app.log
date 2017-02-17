@@ -1,0 +1,367 @@
+2017-02-17 12:42:37.245: createALlModels>(): nullerrorCode[0]
+2017-02-17 12:45:29.711: createALlModels>(): null
+2017-02-17 12:45:29.711: createALlModels>(): creating model 1 ...
+2017-02-17 12:45:29.711: createModel>(): input :batteryId[1]
+2017-02-17 12:45:29.711: setBatteryStateData>(): name[BATTERY_1_STATE]-guid[B7A01633-48D7EFC1-044DDE81-CF94BC2E]
+2017-02-17 12:45:29.711: setChargeGunData>(): name[CHARGE_1_GUN_STATE]-guid[--]-workValue[%3]
+2017-02-17 12:45:29.711: setChargeGunData>(): nullerrorCode[0]
+2017-02-17 12:45:29.711: setChargeAllowData>(): name[BATTERY_1_CHARGE_ALLOWED]-guid[E8788F85-4298B361-99B5563B-00C63EE9]
+2017-02-17 12:45:29.711: setChargeAllowData>(): nullerrorCode[0]
+2017-02-17 12:45:29.711: setChargeEnableData>(): name[BATTERY_1_CHARGE_ENABLED]-guid[97EAA8BD-C9050F37-BA434E83-CD9D0B96]
+2017-02-17 12:45:29.711: setChargeEnableData>(): nullerrorCode[0]
+2017-02-17 12:45:29.711: setFaultLevelData>(): name[BATTERY_1_FAULT_LEVEL]-guid[F996AC42-4081A73F-CD8E9487-7EA9614B]
+2017-02-17 12:45:29.711: setFaultLevelData>(): nullerrorCode[0]
+2017-02-17 12:45:29.711: setWorkStatusData>(): name[BATTERY_1_WORK_STATUS]-guid[2BF0E24C-F797502B-839D76FC-463545E9]
+2017-02-17 12:45:29.711: setWorkStatusData>(): nullerrorCode[0]
+2017-02-17 12:45:29.711: setReachSettingData>(): name[BATTERY_1_SOC_REACH_SETTING]-guid[D75E3E30-54BAE1AE-8650B306-509B4719]
+2017-02-17 12:45:29.711: setReachSettingData>(): nullerrorCode[0]
+2017-02-17 12:45:29.711: createALlModels>(): creating model 1 ...DONE
+2017-02-17 12:45:29.712: createALlModels>(): creating model 2 ...
+2017-02-17 12:45:29.712: createModel>(): input :batteryId[2]
+2017-02-17 12:45:29.712: setBatteryStateData>(): name[BATTERY_2_STATE]-guid[DF1A278F-AE66FF3E-DF4F9805-EC407DCB]
+2017-02-17 12:45:29.712: setChargeGunData>(): name[CHARGE_2_GUN_STATE]-guid[--]-workValue[%3]
+2017-02-17 12:45:29.712: setChargeGunData>(): nullerrorCode[0]
+2017-02-17 12:45:29.712: setChargeAllowData>(): name[BATTERY_2_CHARGE_ALLOWED]-guid[7C14F7B9-42626AFC-0C63EBF0-61FB4D48]
+2017-02-17 12:45:29.712: setChargeAllowData>(): nullerrorCode[0]
+2017-02-17 12:45:29.712: setChargeEnableData>(): name[BATTERY_2_CHARGE_ENABLED]-guid[38FFD490-F3812AE4-B8CF77B7-1AAFB573]
+2017-02-17 12:45:29.712: setChargeEnableData>(): nullerrorCode[0]
+2017-02-17 12:45:29.712: setFaultLevelData>(): name[BATTERY_2_FAULT_LEVEL]-guid[095B91AE-1C6EF2D6-1A496A9B-9C176E5E]
+2017-02-17 12:45:29.712: setFaultLevelData>(): nullerrorCode[0]
+2017-02-17 12:45:29.712: setWorkStatusData>(): name[BATTERY_2_WORK_STATUS]-guid[12545B4F-3229CE55-A5BDD9E6-B44BB46F]
+2017-02-17 12:45:29.712: setWorkStatusData>(): nullerrorCode[0]
+2017-02-17 12:45:29.712: setReachSettingData>(): name[BATTERY_2_SOC_REACH_SETTING]-guid[09D878DB-9F4C98A7-6261F290-80BAA54E]
+2017-02-17 12:45:29.712: setReachSettingData>(): nullerrorCode[0]
+2017-02-17 12:45:29.712: createALlModels>(): creating model 2 ...DONE
+2017-02-17 12:45:29.716: createALlModels>(): nullerrorCode[0]
+2017-02-17 12:45:29.716: createALlModels>(): null
+2017-02-17 12:45:29.716: createALlModels>(): creating model 1 ...
+2017-02-17 12:45:29.716: setStateData>(): name[CHARGE_1_STATEC3D97BA5-5FB5F597-50C89CA0-41720EAE]-guid[]
+2017-02-17 12:45:29.716: setStateData>(): nullerrorCode[0]
+2017-02-17 12:45:29.716: setWorkStateData>(): name[CHARGE_1_WORK_STATEB90AE82D-568BF72B-4E6CD5FB-CCC97E1D]-guid[]
+2017-02-17 12:45:29.716: setWorkStateData>(): nullerrorCode[0]
+2017-02-17 12:45:29.716: setWorkStateData>(): name[CHARGE_1_COMM_STATE]-guid[F1A03050-51C7B52C-79F85EDC-15FABFC6]
+2017-02-17 12:45:29.716: setWorkStateData>(): nullerrorCode[0]
+2017-02-17 12:45:29.716: createALlModels>(): creating model 1 ...DONE
+2017-02-17 12:45:29.716: createALlModels>(): creating model 2 ...
+2017-02-17 12:45:29.716: setStateData>(): name[CHARGE_2_STATE]-guid[F5923183-FE168C10-9B6073A1-2B303140]
+2017-02-17 12:45:29.716: setStateData>(): nullerrorCode[0]
+2017-02-17 12:45:29.717: setWorkStateData>(): name[CHARGE_2_WORK_STATE]-guid[E46BB075-B9DE90B3-7B27A9E3-046A38B5]
+2017-02-17 12:45:29.717: setWorkStateData>(): nullerrorCode[0]
+2017-02-17 12:45:29.717: setWorkStateData>(): name[CHARGE_2_COMM_STATE]-guid[9CC52D87-8EB6E6B0-1F3F5BFE-4A33BBD5]
+2017-02-17 12:45:29.717: setWorkStateData>(): nullerrorCode[0]
+2017-02-17 12:45:29.717: createALlModels>(): creating model 2 ...DONE
+2017-02-17 12:45:29.717: createALlModels>(): nullerrorCode[0]
+2017-02-17 12:45:29.717: createALlModels>(): null
+2017-02-17 12:45:29.719: createALlModels>(): creating model 1 ...
+2017-02-17 12:45:29.719: createModel>(): input :batteryId[1]
+2017-02-17 12:45:29.719: createALlModels>(): creating model 1 ...DONE
+2017-02-17 12:45:29.719: createALlModels>(): creating model 2 ...
+2017-02-17 12:45:29.719: createModel>(): input :batteryId[2]
+2017-02-17 12:45:29.719: createALlModels>(): creating model 2 ...DONE
+2017-02-17 12:45:29.719: createALlModels>(): nullerrorCode[0]
+2017-02-17 12:47:12.799: peroformLogicCheck>(): guid[918ECAA2-1AE55394-3F03440B-07D10E73]-value[1]
+2017-02-17 12:47:12.802: performStartChargeLogicCheck>(): guid[918ECAA2-1AE55394-3F03440B-07D10E73]-value[1]
+2017-02-17 12:47:12.803: getModelByGuid>(): input :guid[918ECAA2-1AE55394-3F03440B-07D10E73]
+2017-02-17 12:47:12.803: getModelByGuid>(): nullerrorCode[0]
+2017-02-17 12:47:12.804: getModelByGuid>(): input :guid[918ECAA2-1AE55394-3F03440B-07D10E73]
+2017-02-17 12:47:12.804: getModelByGuid>(): nullerrorCode[0]
+2017-02-17 12:47:12.804: getModelByGuid>(): input :guid[%s]
+2017-02-17 12:47:12.805: getModelByGuid>(): nullerrorCode[0]
+2017-02-17 12:47:12.805: checkSatfyBeforePowerBattery>(): null
+2017-02-17 12:55:36.508: createALlModels>(): null
+2017-02-17 12:55:36.514: createALlModels>(): creating model 1 ...
+2017-02-17 12:55:36.514: createModel>(): input :batteryId[1]
+2017-02-17 12:55:36.514: setBatteryStateData>(): name[BATTERY_1_STATE]-guid[B7A01633-48D7EFC1-044DDE81-CF94BC2E]
+2017-02-17 12:55:36.514: setChargeGunData>(): name[CHARGE_1_GUN_STATE]-guid[--]-workValue[%3]
+2017-02-17 12:55:36.514: setChargeGunData>(): nullerrorCode[0]
+2017-02-17 12:55:36.514: setChargeAllowData>(): name[BATTERY_1_CHARGE_ALLOWED]-guid[E8788F85-4298B361-99B5563B-00C63EE9]
+2017-02-17 12:55:36.514: setChargeAllowData>(): nullerrorCode[0]
+2017-02-17 12:55:36.514: setChargeEnableData>(): name[BATTERY_1_CHARGE_ENABLED]-guid[97EAA8BD-C9050F37-BA434E83-CD9D0B96]
+2017-02-17 12:55:36.514: setChargeEnableData>(): nullerrorCode[0]
+2017-02-17 12:55:36.514: setFaultLevelData>(): name[BATTERY_1_FAULT_LEVEL]-guid[F996AC42-4081A73F-CD8E9487-7EA9614B]
+2017-02-17 12:55:36.517: setFaultLevelData>(): nullerrorCode[0]
+2017-02-17 12:55:36.519: setWorkStatusData>(): name[BATTERY_1_WORK_STATUS]-guid[2BF0E24C-F797502B-839D76FC-463545E9]
+2017-02-17 12:55:36.520: setWorkStatusData>(): nullerrorCode[0]
+2017-02-17 12:55:36.520: setReachSettingData>(): name[BATTERY_1_SOC_REACH_SETTING]-guid[D75E3E30-54BAE1AE-8650B306-509B4719]
+2017-02-17 12:55:36.520: setReachSettingData>(): nullerrorCode[0]
+2017-02-17 12:55:36.520: createALlModels>(): creating model 1 ...DONE
+2017-02-17 12:55:36.520: createALlModels>(): creating model 2 ...
+2017-02-17 12:55:36.520: createModel>(): input :batteryId[2]
+2017-02-17 12:55:36.520: setBatteryStateData>(): name[BATTERY_2_STATE]-guid[DF1A278F-AE66FF3E-DF4F9805-EC407DCB]
+2017-02-17 12:55:36.520: setChargeGunData>(): name[CHARGE_2_GUN_STATE]-guid[--]-workValue[%3]
+2017-02-17 12:55:36.520: setChargeGunData>(): nullerrorCode[0]
+2017-02-17 12:55:36.520: setChargeAllowData>(): name[BATTERY_2_CHARGE_ALLOWED]-guid[7C14F7B9-42626AFC-0C63EBF0-61FB4D48]
+2017-02-17 12:55:36.520: setChargeAllowData>(): nullerrorCode[0]
+2017-02-17 12:55:36.520: setChargeEnableData>(): name[BATTERY_2_CHARGE_ENABLED]-guid[38FFD490-F3812AE4-B8CF77B7-1AAFB573]
+2017-02-17 12:55:36.520: setChargeEnableData>(): nullerrorCode[0]
+2017-02-17 12:55:36.521: setFaultLevelData>(): name[BATTERY_2_FAULT_LEVEL]-guid[095B91AE-1C6EF2D6-1A496A9B-9C176E5E]
+2017-02-17 12:55:36.525: setFaultLevelData>(): nullerrorCode[0]
+2017-02-17 12:55:36.525: setWorkStatusData>(): name[BATTERY_2_WORK_STATUS]-guid[12545B4F-3229CE55-A5BDD9E6-B44BB46F]
+2017-02-17 12:55:36.525: setWorkStatusData>(): nullerrorCode[0]
+2017-02-17 12:55:36.525: setReachSettingData>(): name[BATTERY_2_SOC_REACH_SETTING]-guid[09D878DB-9F4C98A7-6261F290-80BAA54E]
+2017-02-17 12:55:36.525: setReachSettingData>(): nullerrorCode[0]
+2017-02-17 12:55:36.525: createALlModels>(): creating model 2 ...DONE
+2017-02-17 12:55:36.526: createALlModels>(): nullerrorCode[0]
+2017-02-17 12:55:36.526: createALlModels>(): null
+2017-02-17 12:55:36.526: createALlModels>(): creating model 1 ...
+2017-02-17 12:55:36.526: setStateData>(): name[CHARGE_1_STATEC3D97BA5-5FB5F597-50C89CA0-41720EAE]-guid[]
+2017-02-17 12:55:36.526: setStateData>(): nullerrorCode[0]
+2017-02-17 12:55:36.526: setWorkStateData>(): name[CHARGE_1_WORK_STATEB90AE82D-568BF72B-4E6CD5FB-CCC97E1D]-guid[]
+2017-02-17 12:55:36.526: setWorkStateData>(): nullerrorCode[0]
+2017-02-17 12:55:36.526: setWorkStateData>(): name[CHARGE_1_COMM_STATE]-guid[F1A03050-51C7B52C-79F85EDC-15FABFC6]
+2017-02-17 12:55:36.526: setWorkStateData>(): nullerrorCode[0]
+2017-02-17 12:55:36.526: createALlModels>(): creating model 1 ...DONE
+2017-02-17 12:55:36.526: createALlModels>(): creating model 2 ...
+2017-02-17 12:55:36.526: setStateData>(): name[CHARGE_2_STATE]-guid[F5923183-FE168C10-9B6073A1-2B303140]
+2017-02-17 12:55:36.526: setStateData>(): nullerrorCode[0]
+2017-02-17 12:55:36.526: setWorkStateData>(): name[CHARGE_2_WORK_STATE]-guid[E46BB075-B9DE90B3-7B27A9E3-046A38B5]
+2017-02-17 12:55:36.526: setWorkStateData>(): nullerrorCode[0]
+2017-02-17 12:55:36.526: setWorkStateData>(): name[CHARGE_2_COMM_STATE]-guid[9CC52D87-8EB6E6B0-1F3F5BFE-4A33BBD5]
+2017-02-17 12:55:36.526: setWorkStateData>(): nullerrorCode[0]
+2017-02-17 12:55:36.526: createALlModels>(): creating model 2 ...DONE
+2017-02-17 12:55:36.526: createALlModels>(): nullerrorCode[0]
+2017-02-17 12:55:36.526: createALlModels>(): null
+2017-02-17 12:55:36.526: createALlModels>(): creating model 1 ...
+2017-02-17 12:55:36.526: createModel>(): input :batteryId[1]
+2017-02-17 12:55:36.526: createALlModels>(): creating model 1 ...DONE
+2017-02-17 12:55:36.527: createALlModels>(): creating model 2 ...
+2017-02-17 12:55:36.527: createModel>(): input :batteryId[2]
+2017-02-17 12:55:36.527: createALlModels>(): creating model 2 ...DONE
+2017-02-17 12:55:36.527: createALlModels>(): nullerrorCode[0]
+2017-02-17 12:55:56.841: peroformLogicCheck>(): guid[918ECAA2-1AE55394-3F03440B-07D10E73]-value[1]
+2017-02-17 12:55:56.858: performStartChargeLogicCheck>(): guid[918ECAA2-1AE55394-3F03440B-07D10E73]-value[1]
+2017-02-17 12:55:56.866: getModelByGuid>(): input :guid[918ECAA2-1AE55394-3F03440B-07D10E73]
+2017-02-17 12:55:56.878: getModelByGuid>(): nullerrorCode[0]
+2017-02-17 12:55:56.882: getModelByGuid>(): input :guid[918ECAA2-1AE55394-3F03440B-07D10E73]
+2017-02-17 12:55:56.885: getModelByGuid>(): nullerrorCode[0]
+2017-02-17 12:55:56.890: getModelByGuid>(): input :guid[%s]
+2017-02-17 12:55:56.891: getModelByGuid>(): nullerrorCode[0]
+2017-02-17 12:55:56.891: MobileAppClass::checkSatfyBeforePowerBattery>(): null
+2017-02-17 12:55:56.891: MobileAppClass::checkSatfyBeforePowerBattery>(): check board connect state ...
+2017-02-17 13:10:37.679: createALlModels>(): null
+2017-02-17 13:10:37.683: createALlModels>(): creating model 1 ...
+2017-02-17 13:10:37.685: createModel>(): input :batteryId[1]
+2017-02-17 13:10:37.685: setBatteryStateData>(): name[BATTERY_1_STATE]-guid[B7A01633-48D7EFC1-044DDE81-CF94BC2E]
+2017-02-17 13:10:37.686: setChargeGunData>(): name[CHARGE_1_GUN_STATE]-guid[--]-workValue[%3]
+2017-02-17 13:10:37.686: setChargeGunData>(): nullerrorCode[0]
+2017-02-17 13:10:37.686: setChargeAllowData>(): name[BATTERY_1_CHARGE_ALLOWED]-guid[E8788F85-4298B361-99B5563B-00C63EE9]
+2017-02-17 13:10:37.686: setChargeAllowData>(): nullerrorCode[0]
+2017-02-17 13:10:37.686: setChargeEnableData>(): name[BATTERY_1_CHARGE_ENABLED]-guid[97EAA8BD-C9050F37-BA434E83-CD9D0B96]
+2017-02-17 13:10:37.686: setChargeEnableData>(): nullerrorCode[0]
+2017-02-17 13:10:37.686: setFaultLevelData>(): name[BATTERY_1_FAULT_LEVEL]-guid[F996AC42-4081A73F-CD8E9487-7EA9614B]
+2017-02-17 13:10:37.686: setFaultLevelData>(): nullerrorCode[0]
+2017-02-17 13:10:37.687: setWorkStatusData>(): name[BATTERY_1_WORK_STATUS]-guid[2BF0E24C-F797502B-839D76FC-463545E9]
+2017-02-17 13:10:37.687: setWorkStatusData>(): nullerrorCode[0]
+2017-02-17 13:10:37.687: setReachSettingData>(): name[BATTERY_1_SOC_REACH_SETTING]-guid[D75E3E30-54BAE1AE-8650B306-509B4719]
+2017-02-17 13:10:37.687: setReachSettingData>(): nullerrorCode[0]
+2017-02-17 13:10:37.687: createALlModels>(): creating model 1 ...DONE
+2017-02-17 13:10:37.687: createALlModels>(): creating model 2 ...
+2017-02-17 13:10:37.687: createModel>(): input :batteryId[2]
+2017-02-17 13:10:37.688: setBatteryStateData>(): name[BATTERY_2_STATE]-guid[DF1A278F-AE66FF3E-DF4F9805-EC407DCB]
+2017-02-17 13:10:37.688: setChargeGunData>(): name[CHARGE_2_GUN_STATE]-guid[--]-workValue[%3]
+2017-02-17 13:10:37.688: setChargeGunData>(): nullerrorCode[0]
+2017-02-17 13:10:37.688: setChargeAllowData>(): name[BATTERY_2_CHARGE_ALLOWED]-guid[7C14F7B9-42626AFC-0C63EBF0-61FB4D48]
+2017-02-17 13:10:37.688: setChargeAllowData>(): nullerrorCode[0]
+2017-02-17 13:10:37.689: setChargeEnableData>(): name[BATTERY_2_CHARGE_ENABLED]-guid[38FFD490-F3812AE4-B8CF77B7-1AAFB573]
+2017-02-17 13:10:37.689: setChargeEnableData>(): nullerrorCode[0]
+2017-02-17 13:10:37.689: setFaultLevelData>(): name[BATTERY_2_FAULT_LEVEL]-guid[095B91AE-1C6EF2D6-1A496A9B-9C176E5E]
+2017-02-17 13:10:37.689: setFaultLevelData>(): nullerrorCode[0]
+2017-02-17 13:10:37.690: setWorkStatusData>(): name[BATTERY_2_WORK_STATUS]-guid[12545B4F-3229CE55-A5BDD9E6-B44BB46F]
+2017-02-17 13:10:37.690: setWorkStatusData>(): nullerrorCode[0]
+2017-02-17 13:10:37.690: setReachSettingData>(): name[BATTERY_2_SOC_REACH_SETTING]-guid[09D878DB-9F4C98A7-6261F290-80BAA54E]
+2017-02-17 13:10:37.690: setReachSettingData>(): nullerrorCode[0]
+2017-02-17 13:10:37.690: createALlModels>(): creating model 2 ...DONE
+2017-02-17 13:10:37.690: createALlModels>(): nullerrorCode[0]
+2017-02-17 13:10:37.690: createALlModels>(): null
+2017-02-17 13:10:37.691: createALlModels>(): creating model 1 ...
+2017-02-17 13:10:37.691: setStateData>(): name[CHARGE_1_STATEC3D97BA5-5FB5F597-50C89CA0-41720EAE]-guid[]
+2017-02-17 13:10:37.691: setStateData>(): nullerrorCode[0]
+2017-02-17 13:10:37.692: setWorkStateData>(): name[CHARGE_1_WORK_STATEB90AE82D-568BF72B-4E6CD5FB-CCC97E1D]-guid[]
+2017-02-17 13:10:37.692: setWorkStateData>(): nullerrorCode[0]
+2017-02-17 13:10:37.692: setWorkStateData>(): name[CHARGE_1_COMM_STATE]-guid[F1A03050-51C7B52C-79F85EDC-15FABFC6]
+2017-02-17 13:10:37.692: setWorkStateData>(): nullerrorCode[0]
+2017-02-17 13:10:37.693: createALlModels>(): creating model 1 ...DONE
+2017-02-17 13:10:37.693: createALlModels>(): creating model 2 ...
+2017-02-17 13:10:37.693: setStateData>(): name[CHARGE_2_STATE]-guid[F5923183-FE168C10-9B6073A1-2B303140]
+2017-02-17 13:10:37.695: setStateData>(): nullerrorCode[0]
+2017-02-17 13:10:37.695: setWorkStateData>(): name[CHARGE_2_WORK_STATE]-guid[E46BB075-B9DE90B3-7B27A9E3-046A38B5]
+2017-02-17 13:10:37.695: setWorkStateData>(): nullerrorCode[0]
+2017-02-17 13:10:37.695: setWorkStateData>(): name[CHARGE_2_COMM_STATE]-guid[9CC52D87-8EB6E6B0-1F3F5BFE-4A33BBD5]
+2017-02-17 13:10:37.695: setWorkStateData>(): nullerrorCode[0]
+2017-02-17 13:10:37.695: createALlModels>(): creating model 2 ...DONE
+2017-02-17 13:10:37.695: createALlModels>(): nullerrorCode[0]
+2017-02-17 13:10:37.695: createALlModels>(): null
+2017-02-17 13:10:37.696: createALlModels>(): creating model 1 ...
+2017-02-17 13:10:37.696: createModel>(): input :batteryId[1]
+2017-02-17 13:10:37.696: createALlModels>(): creating model 1 ...DONE
+2017-02-17 13:10:37.696: createALlModels>(): creating model 2 ...
+2017-02-17 13:10:37.696: createModel>(): input :batteryId[2]
+2017-02-17 13:10:37.696: createALlModels>(): creating model 2 ...DONE
+2017-02-17 13:10:37.696: createALlModels>(): nullerrorCode[0]
+2017-02-17 13:10:42.533: peroformLogicCheck>(): guid[918ECAA2-1AE55394-3F03440B-07D10E73]-value[1]
+2017-02-17 13:10:42.541: performStartChargeLogicCheck>(): guid[918ECAA2-1AE55394-3F03440B-07D10E73]-value[1]
+2017-02-17 13:10:42.546: getModelByGuid>(): input :guid[918ECAA2-1AE55394-3F03440B-07D10E73]
+2017-02-17 13:10:42.546: getModelByGuid>(): nullerrorCode[0]
+2017-02-17 13:10:42.547: getModelByGuid>(): input :guid[918ECAA2-1AE55394-3F03440B-07D10E73]
+2017-02-17 13:10:42.547: getModelByGuid>(): nullerrorCode[0]
+2017-02-17 13:10:42.548: getModelByGuid>(): input :guid[%s]
+2017-02-17 13:10:42.550: getModelByGuid>(): nullerrorCode[0]
+2017-02-17 13:10:42.551: MobileAppClass::checkSatfyBeforePowerBattery>(): null
+2017-02-17 13:10:42.553: MobileAppClass::checkSatfyBeforePowerBattery>(): check board connect state ...
+2017-02-17 13:10:42.557: MobileAppClass::isBoardConnected>(): null
+2017-02-17 13:15:40.976: createALlModels>(): null
+2017-02-17 13:15:40.980: createALlModels>(): creating model 1 ...
+2017-02-17 13:15:40.980: createModel>(): input :batteryId[1]
+2017-02-17 13:15:40.981: setBatteryStateData>(): name[BATTERY_1_STATE]-guid[B7A01633-48D7EFC1-044DDE81-CF94BC2E]
+2017-02-17 13:15:40.982: setChargeGunData>(): name[CHARGE_1_GUN_STATE]-guid[--]-workValue[%3]
+2017-02-17 13:15:40.982: setChargeGunData>(): nullerrorCode[0]
+2017-02-17 13:15:40.982: setChargeAllowData>(): name[BATTERY_1_CHARGE_ALLOWED]-guid[E8788F85-4298B361-99B5563B-00C63EE9]
+2017-02-17 13:15:40.982: setChargeAllowData>(): nullerrorCode[0]
+2017-02-17 13:15:40.982: setChargeEnableData>(): name[BATTERY_1_CHARGE_ENABLED]-guid[97EAA8BD-C9050F37-BA434E83-CD9D0B96]
+2017-02-17 13:15:40.982: setChargeEnableData>(): nullerrorCode[0]
+2017-02-17 13:15:40.982: setFaultLevelData>(): name[BATTERY_1_FAULT_LEVEL]-guid[F996AC42-4081A73F-CD8E9487-7EA9614B]
+2017-02-17 13:15:40.982: setFaultLevelData>(): nullerrorCode[0]
+2017-02-17 13:15:40.982: setWorkStatusData>(): name[BATTERY_1_WORK_STATUS]-guid[2BF0E24C-F797502B-839D76FC-463545E9]
+2017-02-17 13:15:40.983: setWorkStatusData>(): nullerrorCode[0]
+2017-02-17 13:15:40.983: setReachSettingData>(): name[BATTERY_1_SOC_REACH_SETTING]-guid[D75E3E30-54BAE1AE-8650B306-509B4719]
+2017-02-17 13:15:40.983: setReachSettingData>(): nullerrorCode[0]
+2017-02-17 13:15:40.983: createALlModels>(): creating model 1 ...DONE
+2017-02-17 13:15:40.984: createALlModels>(): creating model 2 ...
+2017-02-17 13:15:40.985: createModel>(): input :batteryId[2]
+2017-02-17 13:15:40.985: setBatteryStateData>(): name[BATTERY_2_STATE]-guid[DF1A278F-AE66FF3E-DF4F9805-EC407DCB]
+2017-02-17 13:15:40.985: setChargeGunData>(): name[CHARGE_2_GUN_STATE]-guid[--]-workValue[%3]
+2017-02-17 13:15:40.986: setChargeGunData>(): nullerrorCode[0]
+2017-02-17 13:15:40.987: setChargeAllowData>(): name[BATTERY_2_CHARGE_ALLOWED]-guid[7C14F7B9-42626AFC-0C63EBF0-61FB4D48]
+2017-02-17 13:15:40.987: setChargeAllowData>(): nullerrorCode[0]
+2017-02-17 13:15:40.987: setChargeEnableData>(): name[BATTERY_2_CHARGE_ENABLED]-guid[38FFD490-F3812AE4-B8CF77B7-1AAFB573]
+2017-02-17 13:15:40.987: setChargeEnableData>(): nullerrorCode[0]
+2017-02-17 13:15:40.987: setFaultLevelData>(): name[BATTERY_2_FAULT_LEVEL]-guid[095B91AE-1C6EF2D6-1A496A9B-9C176E5E]
+2017-02-17 13:15:40.987: setFaultLevelData>(): nullerrorCode[0]
+2017-02-17 13:15:40.987: setWorkStatusData>(): name[BATTERY_2_WORK_STATUS]-guid[12545B4F-3229CE55-A5BDD9E6-B44BB46F]
+2017-02-17 13:15:40.987: setWorkStatusData>(): nullerrorCode[0]
+2017-02-17 13:15:40.987: setReachSettingData>(): name[BATTERY_2_SOC_REACH_SETTING]-guid[09D878DB-9F4C98A7-6261F290-80BAA54E]
+2017-02-17 13:15:40.987: setReachSettingData>(): nullerrorCode[0]
+2017-02-17 13:15:40.987: createALlModels>(): creating model 2 ...DONE
+2017-02-17 13:15:40.989: createALlModels>(): nullerrorCode[0]
+2017-02-17 13:15:40.989: createALlModels>(): null
+2017-02-17 13:15:40.990: createALlModels>(): creating model 1 ...
+2017-02-17 13:15:40.990: setStateData>(): name[CHARGE_1_STATEC3D97BA5-5FB5F597-50C89CA0-41720EAE]-guid[]
+2017-02-17 13:15:40.990: setStateData>(): nullerrorCode[0]
+2017-02-17 13:15:40.990: setWorkStateData>(): name[CHARGE_1_WORK_STATEB90AE82D-568BF72B-4E6CD5FB-CCC97E1D]-guid[]
+2017-02-17 13:15:40.992: setWorkStateData>(): nullerrorCode[0]
+2017-02-17 13:15:40.992: setConnectStateData>(): name[CHARGE_1_COMM_STATE]-guid[F1A03050-51C7B52C-79F85EDC-15FABFC6]
+2017-02-17 13:15:40.993: setConnectStateData>(): nullerrorCode[0]
+2017-02-17 13:15:40.993: createALlModels>(): creating model 1 ...DONE
+2017-02-17 13:15:40.994: createALlModels>(): creating model 2 ...
+2017-02-17 13:15:40.994: setStateData>(): name[CHARGE_2_STATE]-guid[F5923183-FE168C10-9B6073A1-2B303140]
+2017-02-17 13:15:40.994: setStateData>(): nullerrorCode[0]
+2017-02-17 13:15:40.994: setWorkStateData>(): name[CHARGE_2_WORK_STATE]-guid[E46BB075-B9DE90B3-7B27A9E3-046A38B5]
+2017-02-17 13:15:40.994: setWorkStateData>(): nullerrorCode[0]
+2017-02-17 13:15:40.994: setConnectStateData>(): name[CHARGE_2_COMM_STATE]-guid[9CC52D87-8EB6E6B0-1F3F5BFE-4A33BBD5]
+2017-02-17 13:15:40.994: setConnectStateData>(): nullerrorCode[0]
+2017-02-17 13:15:40.996: createALlModels>(): creating model 2 ...DONE
+2017-02-17 13:15:40.996: createALlModels>(): nullerrorCode[0]
+2017-02-17 13:15:40.996: createALlModels>(): null
+2017-02-17 13:15:40.996: createALlModels>(): creating model 1 ...
+2017-02-17 13:15:40.996: createModel>(): input :batteryId[1]
+2017-02-17 13:15:40.997: createALlModels>(): creating model 1 ...DONE
+2017-02-17 13:15:40.997: createALlModels>(): creating model 2 ...
+2017-02-17 13:15:40.997: createModel>(): input :batteryId[2]
+2017-02-17 13:15:40.997: createALlModels>(): creating model 2 ...DONE
+2017-02-17 13:15:40.997: createALlModels>(): nullerrorCode[0]
+2017-02-17 13:15:42.907: peroformLogicCheck>(): guid[918ECAA2-1AE55394-3F03440B-07D10E73]-value[1]
+2017-02-17 13:15:42.914: performStartChargeLogicCheck>(): guid[918ECAA2-1AE55394-3F03440B-07D10E73]-value[1]
+2017-02-17 13:15:42.914: getModelByGuid>(): input :guid[918ECAA2-1AE55394-3F03440B-07D10E73]
+2017-02-17 13:15:42.915: getModelByGuid>(): nullerrorCode[0]
+2017-02-17 13:15:42.916: getModelByGuid>(): input :guid[918ECAA2-1AE55394-3F03440B-07D10E73]
+2017-02-17 13:15:42.917: getModelByGuid>(): nullerrorCode[0]
+2017-02-17 13:15:42.920: getModelByGuid>(): input :guid[%s]
+2017-02-17 13:15:42.920: getModelByGuid>(): nullerrorCode[0]
+2017-02-17 13:15:42.921: MobileAppClass::checkSatfyBeforePowerBattery>(): null
+2017-02-17 13:15:42.923: MobileAppClass::checkSatfyBeforePowerBattery>(): check board connect state ...
+2017-02-17 13:15:42.925: MobileAppClass::isBoardConnected>(): null
+2017-02-17 13:15:42.926: MobileAppClass::isBoardConnected>(): dispatch data id ...
+2017-02-17 13:15:42.929: MobileAppClass::isBoardConnected>(): data_id = F1A03050-51C7B52C-79F85EDC-15FABFC6
+2017-02-17 13:15:42.930: MobileAppClass::isBoardConnected>(): get data[0]-[%2] from data service 
+2017-02-17 13:15:42.930: MobileAppClass::isBoardConnected>(): result[0]errorCode[0]
+2017-02-17 13:15:42.931: MobileAppClass::checkSatfyBeforePowerBattery>(): Board is disconnect errorerrorCode[1]
+2017-02-17 13:15:42.931: performStartChargeLogicCheck>(): nullerrorCode[1]
+2017-02-17 13:15:42.932: peroformLogicCheck>(): nullerrorCode[1]
+2017-02-17 13:45:58.049: createALlModels>(): null
+2017-02-17 13:45:58.055: createALlModels>(): creating model 1 ...
+2017-02-17 13:45:58.055: createModel>(): input :batteryId[1]
+2017-02-17 13:45:58.055: setBatteryStateData>(): name[BATTERY_1_STATE]-guid[B7A01633-48D7EFC1-044DDE81-CF94BC2E]
+2017-02-17 13:45:58.055: setChargeGunData>(): name[CHARGE_1_GUN_STATE]-guid[--]-workValue[%3]
+2017-02-17 13:45:58.055: setChargeGunData>(): nullerrorCode[0]
+2017-02-17 13:45:58.055: setChargeAllowData>(): name[BATTERY_1_CHARGE_ALLOWED]-guid[E8788F85-4298B361-99B5563B-00C63EE9]
+2017-02-17 13:45:58.055: setChargeAllowData>(): nullerrorCode[0]
+2017-02-17 13:45:58.055: setChargeEnableData>(): name[BATTERY_1_CHARGE_ENABLED]-guid[97EAA8BD-C9050F37-BA434E83-CD9D0B96]
+2017-02-17 13:45:58.055: setChargeEnableData>(): nullerrorCode[0]
+2017-02-17 13:45:58.056: setFaultLevelData>(): name[BATTERY_1_FAULT_LEVEL]-guid[F996AC42-4081A73F-CD8E9487-7EA9614B]
+2017-02-17 13:45:58.056: setFaultLevelData>(): nullerrorCode[0]
+2017-02-17 13:45:58.056: setWorkStatusData>(): name[BATTERY_1_WORK_STATUS]-guid[2BF0E24C-F797502B-839D76FC-463545E9]
+2017-02-17 13:45:58.056: setWorkStatusData>(): nullerrorCode[0]
+2017-02-17 13:45:58.056: setReachSettingData>(): name[BATTERY_1_SOC_REACH_SETTING]-guid[D75E3E30-54BAE1AE-8650B306-509B4719]
+2017-02-17 13:45:58.056: setReachSettingData>(): nullerrorCode[0]
+2017-02-17 13:45:58.056: createALlModels>(): creating model 1 ...DONE
+2017-02-17 13:45:58.056: createALlModels>(): creating model 2 ...
+2017-02-17 13:45:58.056: createModel>(): input :batteryId[2]
+2017-02-17 13:45:58.056: setBatteryStateData>(): name[BATTERY_2_STATE]-guid[DF1A278F-AE66FF3E-DF4F9805-EC407DCB]
+2017-02-17 13:45:58.056: setChargeGunData>(): name[CHARGE_2_GUN_STATE]-guid[--]-workValue[%3]
+2017-02-17 13:45:58.056: setChargeGunData>(): nullerrorCode[0]
+2017-02-17 13:45:58.056: setChargeAllowData>(): name[BATTERY_2_CHARGE_ALLOWED]-guid[7C14F7B9-42626AFC-0C63EBF0-61FB4D48]
+2017-02-17 13:45:58.056: setChargeAllowData>(): nullerrorCode[0]
+2017-02-17 13:45:58.056: setChargeEnableData>(): name[BATTERY_2_CHARGE_ENABLED]-guid[38FFD490-F3812AE4-B8CF77B7-1AAFB573]
+2017-02-17 13:45:58.056: setChargeEnableData>(): nullerrorCode[0]
+2017-02-17 13:45:58.056: setFaultLevelData>(): name[BATTERY_2_FAULT_LEVEL]-guid[095B91AE-1C6EF2D6-1A496A9B-9C176E5E]
+2017-02-17 13:45:58.056: setFaultLevelData>(): nullerrorCode[0]
+2017-02-17 13:45:58.056: setWorkStatusData>(): name[BATTERY_2_WORK_STATUS]-guid[12545B4F-3229CE55-A5BDD9E6-B44BB46F]
+2017-02-17 13:45:58.056: setWorkStatusData>(): nullerrorCode[0]
+2017-02-17 13:45:58.056: setReachSettingData>(): name[BATTERY_2_SOC_REACH_SETTING]-guid[09D878DB-9F4C98A7-6261F290-80BAA54E]
+2017-02-17 13:45:58.056: setReachSettingData>(): nullerrorCode[0]
+2017-02-17 13:45:58.056: createALlModels>(): creating model 2 ...DONE
+2017-02-17 13:45:58.056: createALlModels>(): nullerrorCode[0]
+2017-02-17 13:45:58.056: createALlModels>(): null
+2017-02-17 13:45:58.056: createALlModels>(): creating model 1 ...
+2017-02-17 13:45:58.056: setStateData>(): name[CHARGE_1_STATEC3D97BA5-5FB5F597-50C89CA0-41720EAE]-guid[]
+2017-02-17 13:45:58.057: setStateData>(): nullerrorCode[0]
+2017-02-17 13:45:58.057: setWorkStateData>(): name[CHARGE_1_WORK_STATEB90AE82D-568BF72B-4E6CD5FB-CCC97E1D]-guid[]
+2017-02-17 13:45:58.057: setWorkStateData>(): nullerrorCode[0]
+2017-02-17 13:45:58.057: setConnectStateData>(): name[CHARGE_1_COMM_STATE]-guid[F1A03050-51C7B52C-79F85EDC-15FABFC6]
+2017-02-17 13:45:58.057: setConnectStateData>(): nullerrorCode[0]
+2017-02-17 13:45:58.057: createALlModels>(): creating model 1 ...DONE
+2017-02-17 13:45:58.057: createALlModels>(): creating model 2 ...
+2017-02-17 13:45:58.057: setStateData>(): name[CHARGE_2_STATE]-guid[F5923183-FE168C10-9B6073A1-2B303140]
+2017-02-17 13:45:58.057: setStateData>(): nullerrorCode[0]
+2017-02-17 13:45:58.057: setWorkStateData>(): name[CHARGE_2_WORK_STATE]-guid[E46BB075-B9DE90B3-7B27A9E3-046A38B5]
+2017-02-17 13:45:58.057: setWorkStateData>(): nullerrorCode[0]
+2017-02-17 13:45:58.057: setConnectStateData>(): name[CHARGE_2_COMM_STATE]-guid[9CC52D87-8EB6E6B0-1F3F5BFE-4A33BBD5]
+2017-02-17 13:45:58.057: setConnectStateData>(): nullerrorCode[0]
+2017-02-17 13:45:58.057: createALlModels>(): creating model 2 ...DONE
+2017-02-17 13:45:58.057: createALlModels>(): nullerrorCode[0]
+2017-02-17 13:45:58.057: createALlModels>(): null
+2017-02-17 13:45:58.057: createALlModels>(): creating model 1 ...
+2017-02-17 13:45:58.057: createModel>(): input :batteryId[1]
+2017-02-17 13:45:58.057: createALlModels>(): creating model 1 ...DONE
+2017-02-17 13:45:58.058: createALlModels>(): creating model 2 ...
+2017-02-17 13:45:58.058: createModel>(): input :batteryId[2]
+2017-02-17 13:45:58.058: createALlModels>(): creating model 2 ...DONE
+2017-02-17 13:45:58.064: createALlModels>(): nullerrorCode[0]
+2017-02-17 13:46:12.308: peroformLogicCheck>(): guid[918ECAA2-1AE55394-3F03440B-07D10E73]-value[1]
+2017-02-17 13:46:12.314: performStartChargeLogicCheck>(): guid[918ECAA2-1AE55394-3F03440B-07D10E73]-value[1]
+2017-02-17 13:46:12.314: getModelByGuid>(): input :guid[918ECAA2-1AE55394-3F03440B-07D10E73]
+2017-02-17 13:46:12.315: getModelByGuid>(): nullerrorCode[0]
+2017-02-17 13:46:12.315: getModelByGuid>(): input :guid[918ECAA2-1AE55394-3F03440B-07D10E73]
+2017-02-17 13:46:12.315: getModelByGuid>(): nullerrorCode[0]
+2017-02-17 13:46:12.315: getModelByGuid>(): input :guid[%s]
+2017-02-17 13:46:12.316: getModelByGuid>(): nullerrorCode[0]
+2017-02-17 13:46:12.316: MobileAppClass::checkSatfyBeforePowerBattery>(): null
+2017-02-17 13:46:12.316: MobileAppClass::checkSatfyBeforePowerBattery>(): check board connect state ...
+2017-02-17 13:46:12.316: MobileAppClass::isBoardConnected>(): null
+2017-02-17 13:46:12.317: MobileAppClass::isBoardConnected>(): dispatch data id ...
+2017-02-17 13:46:12.317: MobileAppClass::isBoardConnected>(): data_id = F1A03050-51C7B52C-79F85EDC-15FABFC6
+2017-02-17 13:46:12.317: MobileAppClass::isBoardConnected>(): get data[0]-[%2] from data service 
+2017-02-17 13:46:12.325: MobileAppClass::isBoardConnected>(): result[0]errorCode[0]
+2017-02-17 13:46:12.326: MobileAppClass::checkSatfyBeforePowerBattery>(): Board is disconnect errorerrorCode[1]
+2017-02-17 13:46:12.326: performStartChargeLogicCheck>(): nullerrorCode[1]
+2017-02-17 13:46:12.326: peroformLogicCheck>(): nullerrorCode[1]
