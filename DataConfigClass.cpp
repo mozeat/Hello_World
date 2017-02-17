@@ -1,6 +1,6 @@
 #include "DataConfigClass.h"
 #include "app_global.h"
-#include "TraceClass.h"
+#include "TR4A_if.h"
 
 namespace Appilication
 {

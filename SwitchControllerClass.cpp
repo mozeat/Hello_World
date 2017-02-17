@@ -1,6 +1,6 @@
 #include "SwitchControllerClass.h"
 #include "app_global.h"
-#include "TraceClass.h"
+#include "TR4A_if.h"
 
 namespace Appilication
 {
@@ -24,14 +24,14 @@ namespace Appilication
         void SwitchControllerClass::readDataConfigFromXML(QString fileName)
         {
             const char* funcName = "SwitchControllerClass::readDataConfigFromXML";
-            AppFuncEntry(funcName,fileName);
+            TR4A_FuncEntry(funcName,fileName);
             if(fileName.isNull())
                 return;
             for(int i = CHARGE_1_STATE; i < APP_GUID_MAX;i++)
             {
                 //this->m_guidBatteryInstanceMap[] =
             }
-            AppFuncExit(funcName,"null",0);
+            TR4A_FuncExit(funcName,"null",0);
         }
 
         /*
@@ -40,17 +40,17 @@ namespace Appilication
         void SwitchControllerClass::createALlModels()
         {
             const char* funcName = "SwitchControllerClass::createALlModels";
-            AppFuncEntry(funcName,"null");
+            TR4A_FuncEntry(funcName,"null");
 
-            AppTrace(funcName,"creating model 1 ...");
+            TR4A_FuncTrace(funcName,"creating model 1 ...");
             this->createModel(1);
-            AppTrace(funcName,"creating model 1 ...DONE");
+            TR4A_FuncTrace(funcName,"creating model 1 ...DONE");
 
-            AppTrace(funcName,"creating model 2 ...");
+            TR4A_FuncTrace(funcName,"creating model 2 ...");
             this->createModel(2);
-            AppTrace(funcName,"creating model 2 ...DONE");
+            TR4A_FuncTrace(funcName,"creating model 2 ...DONE");
 
-            AppFuncExit(funcName,"null",0);
+            TR4A_FuncExit(funcName,"null",0);
         }
 
         /*
@@ -59,7 +59,7 @@ namespace Appilication
         QSharedPointer<SwitchClass> SwitchControllerClass::getModelByGuid(QString guid)
         {
             const char* funcName = "SwitchControllerClass::getModelByGuid";
-            AppFuncEntry(funcName,QString("input :guid[%s]").arg(guid));
+            TR4A_FuncEntry(funcName,QString("input :guid[%s]").arg(guid));
             int errorCode = APP_OK;
             QSharedPointer<SwitchClass> switcher;
             if(this->m_guidSwitchInstanceMap.find(guid) != this->m_guidSwitchInstanceMap.end())
@@ -71,7 +71,7 @@ namespace Appilication
                 errorCode = APP_PARAMETER_ERROR;
             }
 
-            AppFuncExit(funcName,"null",errorCode);
+            TR4A_FuncExit(funcName,"null",errorCode);
             return switcher;
         }
 
@@ -89,12 +89,12 @@ namespace Appilication
         APP_POWER_MODE_ENUM SwitchControllerClass::getPowerMode(QString ctrlCmd)
         {
             const char* funcName = "SwitchControllerClass::getPowerMode";
-            AppFuncEntry(funcName,QString("input :guid[%1]").arg(ctrlCmd));
+            TR4A_FuncEntry(funcName,QString("input :guid[%1]").arg(ctrlCmd));
             if(this->m_power_mode_map.find(ctrlCmd) != this->m_power_mode_map.end())
             {
                 return this->m_power_mode_map[ctrlCmd];
             }
-            AppFuncExit(funcName,"null",0x01);
+            TR4A_FuncExit(funcName,"null",0x01);
             return APP_POWER_MODE_MAX;
         }
 
@@ -104,7 +104,7 @@ namespace Appilication
         void SwitchControllerClass::createModel(int SwitchId)
         {
             const char* funcName = "SwitchControllerClass::createModel";
-            AppFuncEntry(funcName,QString("input :batteryId[%1]").arg(SwitchId));
+            TR4A_FuncEntry(funcName,QString("input :batteryId[%1]").arg(SwitchId));
             QSharedPointer<SwitchClass> model(new SwitchClass());
             QSharedPointer<DataConfigClass> data(new DataConfigClass());
             switch (SwitchId)
@@ -437,7 +437,7 @@ namespace Appilication
                 break;
 
             }
-            AppFuncExit(funcName,"null",0x01);
+            TR4A_FuncExit(funcName,"null",0x01);
         }
     }
 }

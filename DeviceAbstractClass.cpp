@@ -1,5 +1,5 @@
 #include "DeviceAbstractClass.h"
-#include "TraceClass.h"
+#include "TR4A_if.h"
 
 namespace Appilication
 {

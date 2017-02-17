@@ -27,8 +27,8 @@ SOURCES += \
     SwitchClass.cpp \
     SwitchControllerClass.cpp \
     DeviceAbstractClass.cpp \
-    TraceClass.cpp \
-    ExceptionClass.cpp
+    ExceptionClass.cpp \
+    TR4A.cpp
 
 HEADERS +=\
         app_global.h \
@@ -42,8 +42,8 @@ HEADERS +=\
     SwitchClass.h \
     SwitchControllerClass.h \
     DeviceAbstractClass.h \
-    TraceClass.h \
-    ExceptionClass.h
+    ExceptionClass.h \
+    TR4A_if.h
 
 unix {
     target.path = /usr/lib

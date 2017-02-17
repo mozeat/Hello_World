@@ -1,5 +1,5 @@
 #include "LogicModuleAbstractClass.h"
-#include "TraceClass.h"
+#include "TR4A_if.h"
 
 
 Appilication::Power::LogicModuleAbstractClass::LogicModuleAbstractClass(QObject *parent)
@@ -75,14 +75,14 @@ NIO_UINT16 Appilication::Power::LogicModuleAbstractClass::checkSatfyBeforePowerB
                                                                                        QSharedPointer<SwitchClass> switcher,
                                                                                        const QString & ctrlMode)
 {
-    AppFuncEntry(__FUNCTION__,"null");
+    TR4A_FuncEntry(__FUNCTION__,"null");
     NIO_UINT16 errorCode = 0;
     if(charger.isNull() || battery.isNull()|| switcher.isNull() || ctrlMode.isNull())
     {
         errorCode = APP_PARAMETER_ERROR;
     }
 
-    AppFuncExit(__FUNCTION__,"null",errorCode);
+    TR4A_FuncExit(__FUNCTION__,"null",errorCode);
     return errorCode;
 }
 
@@ -90,46 +90,46 @@ NIO_UINT16 Appilication::Power::LogicModuleAbstractClass::checkSatfyBeforeStopPo
                                                                                     QSharedPointer<BatteryClass> battery,
                                                                                     QSharedPointer<SwitchClass> switcher)
 {
-    AppFuncEntry(__FUNCTION__,"null");
+    TR4A_FuncEntry(__FUNCTION__,"null");
     NIO_UINT16 errorCode = 0;
     if(charger.isNull() || battery.isNull()|| switcher.isNull())
     {
          errorCode = APP_PARAMETER_ERROR;
     }
-    AppFuncExit(__FUNCTION__,"null",errorCode);
+    TR4A_FuncExit(__FUNCTION__,"null",errorCode);
     return errorCode;
 }
 
 NIO_UINT16 Appilication::Power::LogicModuleAbstractClass::checkSatfyBeforeSetting(QSharedPointer<BatteryClass> battery)
 {
-    AppFuncEntry(__FUNCTION__,"null");
+    TR4A_FuncEntry(__FUNCTION__,"null");
     NIO_UINT16 errorCode = 0;
     if(battery.isNull())
     {
          errorCode = APP_PARAMETER_ERROR;
     }
-    AppFuncExit(__FUNCTION__,"null",errorCode);
+    TR4A_FuncExit(__FUNCTION__,"null",errorCode);
     return errorCode;
 }
 
 NIO_UINT16 Appilication::Power::LogicModuleAbstractClass::performSwitchStateLogicCheck(const GUID & guid,
                                                                                        const QVariant & value)
 {
-   AppFuncEntry(__FUNCTION__,QString("guid[%1]").arg(guid));
+   TR4A_FuncEntry(__FUNCTION__,QString("guid[%1]").arg(guid));
     NIO_UINT16 errorCode = 0;
     if(value.toInt() == 0)
     {
 
     }
     if(guid.isNull()) return APP_PARAMETER_ERROR;
-    AppFuncExit(__FUNCTION__,"null",errorCode);
+    TR4A_FuncExit(__FUNCTION__,"null",errorCode);
     return errorCode;
 }
 
 NIO_UINT16 Appilication::Power::LogicModuleAbstractClass::performResetPowerBoardLogicCheck(const GUID & guid,
                                                                                            const QVariant & value)
 {
-    AppFuncEntry(__FUNCTION__,QString("guid[%1]").arg(guid));
+    TR4A_FuncEntry(__FUNCTION__,QString("guid[%1]").arg(guid));
     NIO_UINT16 errorCode = 0;
     if(value.toInt() == 0)
     {
@@ -145,7 +145,7 @@ NIO_UINT16 Appilication::Power::LogicModuleAbstractClass::performResetPowerBoard
 NIO_UINT16 Appilication::Power::LogicModuleAbstractClass::performSwitchCtrlLogicCheck(const QString &guid,
                                                                                       const QVariant &value)
 {
-    AppFuncEntry(__FUNCTION__,QString("guid[%1]").arg(guid));
+    TR4A_FuncEntry(__FUNCTION__,QString("guid[%1]").arg(guid));
     NIO_UINT16 errorCode = 0;
     if(value.toInt() == 0)
     {
@@ -160,7 +160,7 @@ NIO_UINT16 Appilication::Power::LogicModuleAbstractClass::performSwitchCtrlLogic
 */
 NIO_UINT16 Appilication::Power::LogicModuleAbstractClass::performStartChargeLogicCheck(const QString &guid, const QVariant &value)
 {
-    AppFuncEntry(__FUNCTION__,QString("guid[%1]-value[%2]").arg(guid).arg(value.toInt()));
+    TR4A_FuncEntry(__FUNCTION__,QString("guid[%1]-value[%2]").arg(guid).arg(value.toInt()));
     NIO_UINT16 errorCode = 0;
     int action = 3;
     enum{startAction = 1,stopAction = 2,otherAction = 3};
@@ -222,7 +222,7 @@ NIO_UINT16 Appilication::Power::LogicModuleAbstractClass::performStartChargeLogi
             errorCode = this->checkSatfyBeforeStopPower(charger,battery,switcher);
         }
     }
-    AppFuncExit(__FUNCTION__,"null",errorCode);
+    TR4A_FuncExit(__FUNCTION__,"null",errorCode);
     return errorCode;
 }
 
@@ -258,7 +258,7 @@ void Appilication::Power::LogicModuleAbstractClass::reset()
 */
 void Appilication::Power::LogicModuleAbstractClass::peroformLogicCheck(const QString &guid, QVariant &value)
 {
-    AppFuncEntry(__FUNCTION__,QString("guid[%1]-value[%2]").arg(guid).arg(value.toInt()));
+    TR4A_FuncEntry(__FUNCTION__,QString("guid[%1]-value[%2]").arg(guid).arg(value.toInt()));
     NIO_UINT16 errorCode = 0;
     std::map<GUID,callback>::iterator ite = this->m_logicCallbackMap.find(guid);
     if(ite != this->m_logicCallbackMap.end())
@@ -270,6 +270,6 @@ void Appilication::Power::LogicModuleAbstractClass::peroformLogicCheck(const QSt
         errorCode = 0x01;
         qDebug() << "Guid[" << guid << "] no callback function find!";
     }
-    AppFuncExit(__FUNCTION__,"null",errorCode);
+    TR4A_FuncExit(__FUNCTION__,"null",errorCode);
     emit set_ctrl_callback_signal(guid,value,errorCode);
 }

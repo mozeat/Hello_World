@@ -1,5 +1,5 @@
 #include "ChargerClass.h"
-#include "TraceClass.h"
+#include "TR4A_if.h"
 
 namespace Appilication
 {
@@ -20,9 +20,9 @@ namespace Appilication
         */
         void ChargerClass::setStateData(QSharedPointer<DataConfigClass> data)
         {
-            AppFuncEntry(__FUNCTION__,QString("name[%1]-guid[%2]").arg(data->getName()).arg(data->getGuid()));
+            TR4A_FuncEntry(__FUNCTION__,QString("name[%1]-guid[%2]").arg(data->getName()).arg(data->getGuid()));
             this->m_stateData = data;
-            AppFuncExit(__FUNCTION__,"null",0);
+            TR4A_FuncExit(__FUNCTION__,"null",0);
         }
 
         QSharedPointer<DataConfigClass> ChargerClass::getStateData()
@@ -35,9 +35,9 @@ namespace Appilication
         */
         void ChargerClass::setWorkStateData(QSharedPointer<DataConfigClass> data)
         {
-            AppFuncEntry(__FUNCTION__,QString("name[%1]-guid[%2]").arg(data->getName()).arg(data->getGuid()));
+            TR4A_FuncEntry(__FUNCTION__,QString("name[%1]-guid[%2]").arg(data->getName()).arg(data->getGuid()));
             this->m_workStateData = data;
-            AppFuncExit(__FUNCTION__,"null",0);
+            TR4A_FuncExit(__FUNCTION__,"null",0);
         }
 
         QSharedPointer<DataConfigClass> ChargerClass::getWorkStateData()
@@ -50,9 +50,9 @@ namespace Appilication
         */
         void ChargerClass::setConnectStateData(QSharedPointer<DataConfigClass> data)
         {
-            AppFuncEntry(__FUNCTION__,QString("name[%1]-guid[%2]").arg(data->getName()).arg(data->getGuid()));
+            TR4A_FuncEntry(__FUNCTION__,QString("name[%1]-guid[%2]").arg(data->getName()).arg(data->getGuid()));
             this->m_connectData = data;
-            AppFuncExit(__FUNCTION__,"null",0);
+            TR4A_FuncExit(__FUNCTION__,"null",0);
         }
 
         QSharedPointer<DataConfigClass> ChargerClass::getConnectStateData()

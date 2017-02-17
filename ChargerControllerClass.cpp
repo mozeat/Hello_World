@@ -1,6 +1,6 @@
 #include "ChargerControllerClass.h"
 #include "app_global.h"
-#include "TraceClass.h"
+#include "TR4A_if.h"
 
 namespace Appilication
 {
@@ -23,14 +23,14 @@ namespace Appilication
         */
         void ChargerControllerClass::readDataConfigFromXML(QString fileName)
         {
-            AppFuncEntry(__FUNCTION__,fileName);
+            TR4A_FuncEntry(__FUNCTION__,fileName);
             if(fileName.isNull())
                 return;
             for(int i = CHARGE_1_STATE; i < APP_GUID_MAX;i++)
             {
                 //this->m_guidBatteryInstanceMap[] =
             }
-            AppFuncExit(__FUNCTION__,"null",0);
+            TR4A_FuncExit(__FUNCTION__,"null",0);
         }
 
         /*
@@ -38,17 +38,17 @@ namespace Appilication
         */
         void ChargerControllerClass::createALlModels()
         {
-            AppFuncEntry(__FUNCTION__,"null");
+            TR4A_FuncEntry(__FUNCTION__,"null");
 
-            AppTrace(__FUNCTION__,"creating model 1 ...");
+            TR4A_FuncTrace(__FUNCTION__,"creating model 1 ...");
             this->createModel(1);
-            AppTrace(__FUNCTION__,"creating model 1 ...DONE");
+            TR4A_FuncTrace(__FUNCTION__,"creating model 1 ...DONE");
 
-            AppTrace(__FUNCTION__,"creating model 2 ...");
+            TR4A_FuncTrace(__FUNCTION__,"creating model 2 ...");
             this->createModel(2);
-            AppTrace(__FUNCTION__,"creating model 2 ...DONE");
+            TR4A_FuncTrace(__FUNCTION__,"creating model 2 ...DONE");
 
-            AppFuncExit(__FUNCTION__,"null",0);
+            TR4A_FuncExit(__FUNCTION__,"null",0);
         }
 
         /*
@@ -56,7 +56,7 @@ namespace Appilication
         */
         QSharedPointer<ChargerClass> ChargerControllerClass::getModelByGuid(QString guid)
         {
-            AppFuncEntry(__FUNCTION__,QString("input :guid[%1]").arg(guid));
+            TR4A_FuncEntry(__FUNCTION__,QString("input :guid[%1]").arg(guid));
             int errorCode = APP_OK;
             QSharedPointer<ChargerClass> charger;
             if(this->m_guidChargerInstanceMap.find(guid) != this->m_guidChargerInstanceMap.end())
@@ -68,7 +68,7 @@ namespace Appilication
                 errorCode = APP_PARAMETER_ERROR;
             }
 
-            AppFuncExit(__FUNCTION__,"null",errorCode);
+            TR4A_FuncExit(__FUNCTION__,"null",errorCode);
             return charger;
         }
 

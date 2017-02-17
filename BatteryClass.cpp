@@ -1,5 +1,5 @@
 #include "BatteryClass.h"
-#include "TraceClass.h"
+#include "TR4A_if.h"
 
 namespace Appilication
 {
@@ -34,10 +34,10 @@ namespace Appilication
         */
         void BatteryClass::setWorkStatusData(QSharedPointer<DataConfigClass> dataConfig)
         {
-            AppFuncEntry(__FUNCTION__,QString("name[%1]-guid[%2]").arg(dataConfig->getName()).arg(dataConfig->getGuid()));
+            TR4A_FuncEntry(__FUNCTION__,QString("name[%1]-guid[%2]").arg(dataConfig->getName()).arg(dataConfig->getGuid()));
             this->m_workStatusData = dataConfig;
             this->add(dataConfig);
-            AppFuncExit(__FUNCTION__,"null",0);
+            TR4A_FuncExit(__FUNCTION__,"null",0);
         }
 
         QSharedPointer<DataConfigClass> BatteryClass::getWorkStatusData()
@@ -50,10 +50,10 @@ namespace Appilication
         */
         void BatteryClass::setFaultLevelData(QSharedPointer<DataConfigClass> dataConfig)
         {
-            AppFuncEntry(__FUNCTION__,QString("name[%1]-guid[%2]").arg(dataConfig->getName()).arg(dataConfig->getGuid()));
+            TR4A_FuncEntry(__FUNCTION__,QString("name[%1]-guid[%2]").arg(dataConfig->getName()).arg(dataConfig->getGuid()));
             this->m_faultLevelData = dataConfig;
             this->add(dataConfig);
-            AppFuncExit(__FUNCTION__,"null",0);
+            TR4A_FuncExit(__FUNCTION__,"null",0);
         }
 
         QSharedPointer<DataConfigClass> BatteryClass::getFaultLevelData()
@@ -66,7 +66,7 @@ namespace Appilication
         */
         void BatteryClass::setBatteryStateData(QSharedPointer<DataConfigClass> dataConfig)
         {
-            AppFuncEntry(__FUNCTION__,QString("name[%1]-guid[%2]").arg(dataConfig->getName()).arg(dataConfig->getGuid()));
+            TR4A_FuncEntry(__FUNCTION__,QString("name[%1]-guid[%2]").arg(dataConfig->getName()).arg(dataConfig->getGuid()));
             this->m_batteryStateData = dataConfig;
             this->add(dataConfig);
 
@@ -82,10 +82,10 @@ namespace Appilication
         */
         void BatteryClass::setChargeEnableData(QSharedPointer<DataConfigClass> dataConfig)
         {
-            AppFuncEntry(__FUNCTION__,QString("name[%1]-guid[%2]").arg(dataConfig->getName()).arg(dataConfig->getGuid()));
+            TR4A_FuncEntry(__FUNCTION__,QString("name[%1]-guid[%2]").arg(dataConfig->getName()).arg(dataConfig->getGuid()));
             this->m_chargeEnableData = dataConfig;
             this->add(dataConfig);
-            AppFuncExit(__FUNCTION__,"null",0);
+            TR4A_FuncExit(__FUNCTION__,"null",0);
         }
 
         QSharedPointer<DataConfigClass> BatteryClass::getChargeEnableData()
@@ -98,10 +98,10 @@ namespace Appilication
         */
         void BatteryClass::setChargeAllowData(QSharedPointer<DataConfigClass> dataConfig)
         {
-            AppFuncEntry(__FUNCTION__,QString("name[%1]-guid[%2]").arg(dataConfig->getName()).arg(dataConfig->getGuid()));
+            TR4A_FuncEntry(__FUNCTION__,QString("name[%1]-guid[%2]").arg(dataConfig->getName()).arg(dataConfig->getGuid()));
             this->m_chargeAllowData =dataConfig;
             this->add(dataConfig);
-            AppFuncExit(__FUNCTION__,"null",0);
+            TR4A_FuncExit(__FUNCTION__,"null",0);
         }
 
         QSharedPointer<DataConfigClass> BatteryClass::getChargeAllowData()
@@ -114,10 +114,10 @@ namespace Appilication
         */
         void BatteryClass::setReachSettingData(QSharedPointer<DataConfigClass> dataConfig)
         {
-            AppFuncEntry(__FUNCTION__,QString("name[%1]-guid[%2]").arg(dataConfig->getName()).arg(dataConfig->getGuid()));
+            TR4A_FuncEntry(__FUNCTION__,QString("name[%1]-guid[%2]").arg(dataConfig->getName()).arg(dataConfig->getGuid()));
             this->m_reachSettingData = dataConfig;
             this->add(dataConfig);
-            AppFuncExit(__FUNCTION__,"null",0);
+            TR4A_FuncExit(__FUNCTION__,"null",0);
         }
 
         QSharedPointer<DataConfigClass> BatteryClass::getReachSettingData()
@@ -130,10 +130,10 @@ namespace Appilication
         */
         void BatteryClass::setChargeGunData(QSharedPointer<DataConfigClass> dataConfig)
         {
-            AppFuncEntry(__FUNCTION__,QString("name[%1]-guid[%2]-workValue[%3]").arg(dataConfig->getName()).arg(dataConfig->getGuid()));
+            TR4A_FuncEntry(__FUNCTION__,QString("name[%1]-guid[%2]-workValue[%3]").arg(dataConfig->getName()).arg(dataConfig->getGuid()));
             this->m_chargeGunData = dataConfig;
             this->add(dataConfig);
-            AppFuncExit(__FUNCTION__,"null",0);
+            TR4A_FuncExit(__FUNCTION__,"null",0);
         }
 
         QSharedPointer<DataConfigClass> BatteryClass::getChargeGunData()

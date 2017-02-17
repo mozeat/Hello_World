@@ -1,5 +1,5 @@
 ﻿#include "MobileApp.h"
-#include "TraceClass.h"
+#include "TR4A_if.h"
 #include "ExceptionClass.h"
 using namespace Platform::Middleware;
 namespace Appilication
@@ -29,61 +29,61 @@ namespace Appilication
                                                                 const QString &ctrlMode)
         {
             const char * funcName = "MobileAppClass::checkSatfyBeforePowerBattery";
-            AppFuncEntry(funcName,"null");
+            TR4A_FuncEntry(funcName,"null");
             NIO_UINT16 errorCode = 0;
             if(charger.isNull() || battery.isNull() || switcher.isNull())
             {
-                AppFuncExit(funcName,"parameter error ...!",CTRL_OUTPUT_OPER_FAILED_COMM_ERROR);
+                TR4A_FuncExit(funcName,"parameter error ...!",CTRL_OUTPUT_OPER_FAILED_COMM_ERROR);
                 return CTRL_OUTPUT_OPER_FAILED_COMM_ERROR;
             }
             //check board connect state
-            AppTrace(funcName,"check board connect state ...");
+            TR4A_FuncTrace(funcName,"check board connect state ...");
             if(!this->isBoardConnected(this->m_dataService,charger))
             {
-                AppFuncExit(funcName,"Board is disconnect error",CTRL_OUTPUT_OPER_FAILED_COMM_ERROR);
+                TR4A_FuncExit(funcName,"Board is disconnect error",CTRL_OUTPUT_OPER_FAILED_COMM_ERROR);
                 return CTRL_OUTPUT_OPER_FAILED_COMM_ERROR;
             }
-            AppTrace(funcName,"check board connect state ...DONE");
+            TR4A_FuncTrace(funcName,"check board connect state ...DONE");
 
             //check board connect state
-            AppTrace(funcName,"check charger is healthy ...");
+            TR4A_FuncTrace(funcName,"check charger is healthy ...");
             if(!this->isChargerHealth(this->m_dataService,charger))
             {
-                AppFuncExit(funcName,"Charger system is not healthy ...",CTRL_OUTPUT_OPER_FAILED_COMM_ERROR);
+                TR4A_FuncExit(funcName,"Charger system is not healthy ...",CTRL_OUTPUT_OPER_FAILED_COMM_ERROR);
                 return CTRL_OUTPUT_OPER_FAILED_COMM_ERROR;
             }
-            AppTrace(funcName,"check charger is healthy ...DONE");
+            TR4A_FuncTrace(funcName,"check charger is healthy ...DONE");
 
             //check board connect state
-            AppTrace(funcName,"check charger is free to be charged ...");
+            TR4A_FuncTrace(funcName,"check charger is free to be charged ...");
             if(!this->isChargerIdle(this->m_dataService,charger))
             {
-                AppFuncExit(funcName,"Charger current is not free ...",CTRL_OUTPUT_OPER_FAILED_COMM_ERROR);
+                TR4A_FuncExit(funcName,"Charger current is not free ...",CTRL_OUTPUT_OPER_FAILED_COMM_ERROR);
                 return CTRL_OUTPUT_OPER_FAILED_COMM_ERROR;
             }
-            AppTrace(funcName,"check charger is free to be charged ...DONE");
+            TR4A_FuncTrace(funcName,"check charger is free to be charged ...DONE");
 
             if(!this->isBatteryHealth(this->m_dataService,battery))
             {
-                AppFuncExit(funcName,"Battery is not healthy ...",CTRL_OUTPUT_OPER_FAILED_COMM_ERROR);
+                TR4A_FuncExit(funcName,"Battery is not healthy ...",CTRL_OUTPUT_OPER_FAILED_COMM_ERROR);
                 return CTRL_OUTPUT_OPER_FAILED_COMM_ERROR;
             }
 
             if(!this->isBatteryIdle(this->m_dataService,battery))
             {
-                AppFuncExit(funcName,"Battery current is not free",CTRL_OUTPUT_OPER_FAILED_COMM_ERROR);
+                TR4A_FuncExit(funcName,"Battery current is not free",CTRL_OUTPUT_OPER_FAILED_COMM_ERROR);
                 return CTRL_OUTPUT_OPER_FAILED_COMM_ERROR;
             }
 
             if(!this->isBatteryAllowTocharge(this->m_dataService,battery))
             {
-                AppFuncExit(funcName,"Battery is not allow to charge now ...",CTRL_OUTPUT_OPER_FAILED_COMM_ERROR);
+                TR4A_FuncExit(funcName,"Battery is not allow to charge now ...",CTRL_OUTPUT_OPER_FAILED_COMM_ERROR);
                 return CTRL_OUTPUT_OPER_FAILED_COMM_ERROR;
             }
 
             if(!this->isBatteryEnableTocharge(this->m_dataService,battery))
             {
-                AppFuncExit(funcName,"Battery is disabled ...",CTRL_OUTPUT_OPER_FAILED_COMM_ERROR);
+                TR4A_FuncExit(funcName,"Battery is disabled ...",CTRL_OUTPUT_OPER_FAILED_COMM_ERROR);
                 return CTRL_OUTPUT_OPER_FAILED_COMM_ERROR;
             }
 
@@ -94,10 +94,10 @@ namespace Appilication
             catch(ExceptionClass & e)
             {
                 errorCode = e.getErrorCode();
-                AppTrace(funcName,"Switch state is now correct ...");
+                TR4A_FuncTrace(funcName,"Switch state is now correct ...");
             }
 
-            AppFuncExit(funcName,"null",errorCode);
+            TR4A_FuncExit(funcName,"null",errorCode);
             return errorCode;
         }
 
@@ -145,11 +145,11 @@ namespace Appilication
                                               QSharedPointer<ChargerClass> charger)
         {
             const char * funcName = "MobileAppClass::isBoardConnected";
-            AppFuncEntry(funcName,"null");
+            TR4A_FuncEntry(funcName,"null");
             bool result = false;
             if(NULL != charger && NULL != dataService)
             {
-                AppTrace(funcName,"dispatch data id ...");
+                TR4A_FuncTrace(funcName,"dispatch data id ...");
                 QSharedPointer<DataConfigClass> dataCfg;
                 dataCfg = charger->getConnectStateData();
                 if(dataCfg == NULL)
@@ -157,7 +157,7 @@ namespace Appilication
                     return false;
                 }
                 QString connect = dataCfg->getGuid();
-                AppTrace(funcName,QString("data_id = %1").arg(connect));
+                TR4A_FuncTrace(funcName,QString("data_id = %1").arg(connect));
                 DataPoint* data = NULL;
 
                 Service::ServiceStatus status = dataService->readData(connect,data);
@@ -172,9 +172,9 @@ namespace Appilication
                         result = value == CONNECTED ? true : false;
                     }
                 }
-                AppTrace(funcName,QString("get data[%1]-[%2] from data service ").arg(result));
+                TR4A_FuncTrace(funcName,QString("get data[%1]-[%2] from data service ").arg(result));
             }
-            AppFuncExit(funcName,QString("result[%1]").arg(result),0);
+            TR4A_FuncExit(funcName,QString("result[%1]").arg(result),0);
             return result;
         }
 
