@@ -1,0 +1,11 @@
+#include "MobileApp.h"
+
+
+namespace Appilication
+{
+
+    AppClass::AppClass()
+    {
+
+    }
+}

@@ -1,0 +1,116 @@
+#ifndef APP_GLOBAL_H
+#define APP_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+#include <QString>
+#if defined(APP_LIBRARY)
+#  define APPSHARED_EXPORT Q_DECL_EXPORT
+#else
+#  define APPSHARED_EXPORT Q_DECL_IMPORT
+#endif
+
+#define SAFTY_DELETE_POINTER(pointer) if(NULL != pointer){delete (pointer);(pointer) = NULL;}
+
+#ifndef OVERRIDE
+    #define OVERRIDE
+#endif
+
+#ifndef GUID
+    #define GUID QString
+#endif
+
+#define AppLogfileName "/usr/local/NIO/TR/AppLog.dat"
+
+typedef enum
+{
+    APP_POWER_MODE_MIN = 0,
+    APP_POWER_MODE_AC,
+    APP_POWER_MODE_DC,
+    APP_POWER_MODE_CHARGE,
+    APP_POWER_MODE_MAX
+}APP_POWER_MODE_ENUM;
+
+typedef enum
+{
+    APP_OK = 0X00,
+    APP_PARAMETER_ERROR = 0X01,
+    APP_SYSTEM_ERROR,
+    APP_UNKNOWN_ERROR,
+}APP_ERRORCODE_ENUM;
+
+typedef enum
+{
+    CHARGE_1_STATE = 0,
+    CHARGE_1_WORK_STATE,
+    CHARGE_1_COMM_STATE,
+    CHARGE_1_GUN_STATE,
+    BATTERY_1_STATE ,
+    BATTERY_1_WORK_STATUS,
+    BATTERY_1_FAULT_LEVEL,
+    BATTERY_1_CHARGE_ENABLED,
+    BATTERY_1_CHARGE_ALLOWED,
+    BATTERY_1_SOC_REACH_SETTING ,
+    CHARGE_1_START_STOP_CTRL,
+    CHARGE_1_RESET_CTRL,
+    CHARGE_1_SWITCH_CTRL,
+    SWITCH_1KM_STATUS,
+    SWITCH_1KM_1_2_STATUS,
+    SWITCH_1KM_3_4_STATUS,
+    SWITCH_1KM_5_6_STATUS,
+    SWITCH_1KM_7_STATUS,
+    SWITCH_1KM_8_STATUS,
+    SWITCH_1KM_9_STATUS,
+    SWITCH_1KM_10_STATUS,
+    SWITCH_1KM_11_STATUS,
+    SWITCH_1KM_12_STATUS,
+    SWITCH_1KM_13_STATUS,
+    SWITCH_1KM_14_STATUS,
+    SWITCH_1KM_15_STATUS,
+    SWITCH_1QF_STATUS,
+    SWITCH_QF_STATUS,
+    CHARGE_2_STATE ,
+    CHARGE_2_WORK_STATE,
+    CHARGE_2_COMM_STATE,
+    CHARGE_2_GUN_STATE,
+    BATTERY_2_STATE ,
+    BATTERY_2_WORK_STATUS,
+    BATTERY_2_FAULT_LEVEL,
+    BATTERY_2_CHARGE_ENABLED ,
+    BATTERY_2_CHARGE_ALLOWED,
+    BATTERY_2_SOC_REACH_SETTING,
+    CHARGE_2_START_STOP_CTRL,
+    CHARGE_2_RESET_CTRL,
+    CHARGE_2_SWITCH_CTRL,
+    SWITCH_2KM_STATUS,
+    SWITCH_2KM_1_2_STATUS,
+    SWITCH_2KM_3_4_STATUS,
+    SWITCH_2KM_5_6_STATUS,
+    SWITCH_2KM_7_STATUS,
+    SWITCH_2KM_8_STATUS,
+    SWITCH_2KM_9_STATUS,
+    SWITCH_2KM_10_STATUS,
+    SWITCH_2KM_11_STATUS,
+    SWITCH_2KM_12_STATUS,
+    SWITCH_2KM_13_STATUS,
+    SWITCH_2KM_14_STATUS,
+    SWITCH_2KM_15_STATUS,
+    SWITCH_2QF_STATUS,
+    APP_GUID_MAX
+}AppGuidEnum;
+
+typedef struct
+{
+    AppGuidEnum id;
+    QString     name;
+    GUID        guid;
+}AppGuidStruct;
+
+
+typedef struct
+{
+    int      error_code;
+    QString  error_context;
+    QString  error_description;
+} AlarmInformationsStruct;
+
+#endif // APP_GLOBAL_H
